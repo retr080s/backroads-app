@@ -1,8 +1,20 @@
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Services from './components/Services';
+import Tours from './components/Tours';
+import Footer from './components/Footer';
+
 function App() {
   return (
-    <div className='App'>
-      <h1>backroads app</h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <Tours />
+      <Footer />
+    </>
   );
 }
 
